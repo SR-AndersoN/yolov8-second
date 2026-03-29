@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 22
+names: ['Bee', 'Cave Spider', 'Chest', 'Cow', 'Creeper', 'Dolphin', 'Enderman', 'Goat', 'Iron Golem', 'Llama', 'Panda', 'Pig', 'Piglin', 'Player', 'Polar Bear', 'Sheep', 'Spider', 'Trader Lama', 'Villager House', 'Villager', 'Wolf', 'Zombified Piglin']
+
+roboflow:
+  workspace: ultrabob
+  project: minecraft-player
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ultrabob/minecraft-player/dataset/2
